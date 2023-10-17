@@ -41,11 +41,11 @@
 		},
 		iconSize: {
 			type: [String, Number],
-			default: 22
+			default: 10
 		},
 		iconColor: {
 			type: String,
-			default: "#999"
+			default: "#cbcbcb"
 		}
 	})
 </script>
@@ -86,6 +86,8 @@
 			color: #222;
 			font-weight: 500;
 			display: flex;
+			font-size: 28rpx;
+			font-family: Medium;
 		}
 
 		&__content {
